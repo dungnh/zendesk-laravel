@@ -1,5 +1,6 @@
 # Laravel Zendesk
 
+This is fork from Nahid/Talk to change it works with new Laravel 10.
 This package provides integration with the Zendesk API. It supports creating tickets, retrieving and updating tickets, deleting tickets, etc.
 
 The package simply provides a `Zendesk` facade that acts as a wrapper to the [zendesk/zendesk_api_client_php](https://github.com/zendesk/zendesk_api_client_php) package.
@@ -11,7 +12,7 @@ The package simply provides a `Zendesk` facade that acts as a wrapper to the [ze
 You can install this package via Composer using:
 
 ```bash
-composer require huddledigital/zendesk-laravel
+composer require coliving/zendesk-laravel
 ```
 
 You must also install the service provider.
