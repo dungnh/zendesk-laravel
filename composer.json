@@ -1,21 +1,21 @@
 {
-    "name": "huddledigital/zendesk-laravel",
+    "name": "coliving/zendesk-laravel",
     "type": "library",
     "description": "Laravel wrapper for zendesk/zendesk_api_client_php package",
     "keywords": [
         "zendesk"
     ],
-    "homepage": "http://workwithhuddle.com",
+    "homepage": "http://coliving.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "Huddle Digital Ltd",
-            "email": "info@workwithhuddle.com"
+            "name": "Dzung Nguyen",
+            "email": "dzung@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.4|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/support": "~5.4|^6.0|^7.0|^8.0|^9.0|^10.0",
         "zendesk/zendesk_api_client_php": "2.*"
     },
     "extra": {
